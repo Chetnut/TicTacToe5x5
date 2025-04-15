@@ -1,4 +1,5 @@
-##compile: ##
-#javac --module-path "PATH_TO_JAVAFX_LIB" --add-modules javafx.controls -d out src/module-info.java src/com/example/*.java
-##run: 
-#java --module-path "PATH_TO_JAVAFX_LIB" --add-modules javafx.controls -cp out com.example.Main
+# compile:
+## javac --module-path "PATH_TO_JAVAFX_LIB" --add-modules javafx.controls -d out src/module-info.java src/com/example/*.java
+
+# run: 
+## java --module-path "PATH_TO_JAVAFX_LIB" --add-modules javafx.controls -cp out com.example.Main
